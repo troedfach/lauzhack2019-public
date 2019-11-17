@@ -1,0 +1,2 @@
+bitcoin has certain DNS address
+dig on DNS addresses should return list of available nodes

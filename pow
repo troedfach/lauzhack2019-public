@@ -1,0 +1,16 @@
+miners receive transactions
+they add that to the block they are current mining
+when they get a correct hash, they announce that and publish the results
+other nodes verify that
+
+
+
+every 10 minutes a block is
+
+proposed
+verified
+generate pow to publish
+
+every ten minutes, someone needs to claim a block
+
+each node independently creates a block, then generate a pow for it

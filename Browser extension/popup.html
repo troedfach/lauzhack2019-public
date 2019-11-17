@@ -1,0 +1,37 @@
+<!doctype html>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<html>
+
+  <head>
+    <title>BlockMail</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="slider.css">
+    <style>
+        h1 {padding: 10px; background-color: #f44336; color: white; 
+            margin-bottom: 3px; width: 200px; height: 30px;}
+        body {background-color: #f44336; text-align: center; height: 60px; margin-bottom: 30px}
+        footer {padding: 8px; color: white; position: relative;}
+    </style>
+  </head>
+
+  <body>
+    <h1>BlockMail</h1>
+    <label class="switch">
+        <input class="switch-input" type="checkbox" id="myonoffswitch"/>
+        <span class="switch-label" data-on="On" data-off="Off"></span> 
+        <span class="switch-handle"></span> 
+    </label>
+  </body>
+
+  <section id="buttons" style="height: 30px; margin-top: 5px;">
+      <button type="button" id="btnSource" style="display:none; height: 21px; border-radius: 15%;">Get Data</button>
+      <button type="button" id="sendToBlock" style="display:none; height: 21px; border-radius: 15%;">Send</button>
+  </section>
+
+  <footer>
+      <small>
+          <span>4man SL - LauzHack 2019</span>
+      </small>
+  </footer>
+
+</html>
